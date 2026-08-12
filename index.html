@@ -1,0 +1,346 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Política de Privacidade do aplicativo Tarô Danny."
+    />
+    <meta name="color-scheme" content="dark" />
+    <title>Política de Privacidade — Tarô Danny</title>
+    <style>
+      :root {
+        color-scheme: dark;
+        --bg: #09070d;
+        --surface: #14101c;
+        --surface-soft: #1c1627;
+        --text: #f6f0ff;
+        --muted: #c9bdd8;
+        --accent: #d7b26d;
+        --line: rgba(215, 178, 109, 0.24);
+        --shadow: 0 24px 80px rgba(0, 0, 0, 0.32);
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html {
+        scroll-behavior: smooth;
+      }
+
+      body {
+        margin: 0;
+        min-height: 100vh;
+        background:
+          radial-gradient(circle at 15% 0%, rgba(101, 64, 134, 0.24), transparent 36rem),
+          radial-gradient(circle at 85% 10%, rgba(215, 178, 109, 0.1), transparent 28rem),
+          var(--bg);
+        color: var(--text);
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        line-height: 1.7;
+      }
+
+      a {
+        color: var(--accent);
+        text-underline-offset: 0.2em;
+      }
+
+      a:hover {
+        color: #f1d79e;
+      }
+
+      .page {
+        width: min(100% - 2rem, 880px);
+        margin: 0 auto;
+        padding: 4rem 0;
+      }
+
+      .hero {
+        padding: 3rem clamp(1.4rem, 5vw, 4rem);
+        border: 1px solid var(--line);
+        border-radius: 28px 28px 0 0;
+        background: linear-gradient(145deg, rgba(28, 22, 39, 0.96), rgba(15, 11, 22, 0.96));
+        box-shadow: var(--shadow);
+      }
+
+      .eyebrow {
+        margin: 0 0 0.8rem;
+        color: var(--accent);
+        font-size: 0.78rem;
+        font-weight: 750;
+        letter-spacing: 0.18em;
+        text-transform: uppercase;
+      }
+
+      h1,
+      h2 {
+        font-family: Georgia, "Times New Roman", serif;
+        line-height: 1.15;
+      }
+
+      h1 {
+        margin: 0;
+        max-width: 14ch;
+        font-size: clamp(2.2rem, 7vw, 4.6rem);
+        font-weight: 500;
+        letter-spacing: -0.035em;
+      }
+
+      .intro {
+        max-width: 62ch;
+        margin: 1.4rem 0 0;
+        color: var(--muted);
+        font-size: 1.05rem;
+      }
+
+      .updated {
+        display: inline-flex;
+        margin-top: 1.4rem;
+        padding: 0.45rem 0.75rem;
+        border: 1px solid var(--line);
+        border-radius: 999px;
+        color: var(--muted);
+        font-size: 0.88rem;
+      }
+
+      main {
+        padding: clamp(1.4rem, 5vw, 4rem);
+        border: 1px solid var(--line);
+        border-top: 0;
+        border-radius: 0 0 28px 28px;
+        background: rgba(20, 16, 28, 0.92);
+      }
+
+      section + section {
+        margin-top: 2.8rem;
+        padding-top: 2.8rem;
+        border-top: 1px solid var(--line);
+      }
+
+      h2 {
+        margin: 0 0 1rem;
+        color: #fff8e8;
+        font-size: clamp(1.45rem, 4vw, 2rem);
+        font-weight: 500;
+      }
+
+      p,
+      li {
+        color: var(--muted);
+      }
+
+      p {
+        margin: 0.8rem 0;
+      }
+
+      ul {
+        margin: 1rem 0 0;
+        padding-left: 1.25rem;
+      }
+
+      li + li {
+        margin-top: 0.65rem;
+      }
+
+      strong {
+        color: var(--text);
+      }
+
+      .notice {
+        margin-top: 1.2rem;
+        padding: 1rem 1.1rem;
+        border-left: 3px solid var(--accent);
+        border-radius: 0 12px 12px 0;
+        background: var(--surface-soft);
+      }
+
+      footer {
+        padding: 1.6rem 0 0;
+        color: #9f91b1;
+        text-align: center;
+        font-size: 0.84rem;
+      }
+
+      @media (max-width: 600px) {
+        .page {
+          width: min(100% - 1rem, 880px);
+          padding: 0.5rem 0 2rem;
+        }
+
+        .hero,
+        main {
+          border-radius: 18px;
+        }
+
+        .hero {
+          margin-bottom: 0.5rem;
+        }
+
+        main {
+          border-top: 1px solid var(--line);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page">
+      <header class="hero">
+        <p class="eyebrow">Tarô Danny</p>
+        <h1>Política de Privacidade</h1>
+        <p class="intro">
+          Esta política explica como o aplicativo <strong>Tarô Danny</strong>, desenvolvido por
+          <strong>Vinicius Santos</strong>, trata informações durante o uso do aplicativo.
+        </p>
+        <span class="updated">Última atualização: 12 de agosto de 2026</span>
+      </header>
+
+      <main>
+        <section aria-labelledby="scope">
+          <h2 id="scope">1. Escopo desta política</h2>
+          <p>
+            Esta Política de Privacidade se aplica ao aplicativo Tarô Danny para dispositivos
+            móveis. Ao utilizar o aplicativo, você reconhece as práticas descritas nesta página.
+          </p>
+        </section>
+
+        <section aria-labelledby="direct-data">
+          <h2 id="direct-data">2. Informações tratadas pelo aplicativo</h2>
+          <p>
+            O Tarô Danny não exige a criação de conta e não solicita diretamente nome, endereço,
+            lista de contatos, fotos, localização precisa ou dados de saúde.
+          </p>
+          <p>
+            As escolhas e leituras realizadas no aplicativo são processadas no próprio dispositivo.
+            O aplicativo pode armazenar localmente preferências e o estado de acesso VIP. Essas
+            informações permanecem no aparelho e podem ser removidas ao limpar os dados ou
+            desinstalar o aplicativo.
+          </p>
+        </section>
+
+        <section aria-labelledby="ads">
+          <h2 id="ads">3. Anúncios e Google AdMob</h2>
+          <p>
+            A versão gratuita utiliza o Google Mobile Ads SDK (AdMob) para exibir anúncios. Esse
+            serviço pode coletar e compartilhar automaticamente informações como:
+          </p>
+          <ul>
+            <li>endereço IP, usado inclusive para estimar uma localização aproximada;</li>
+            <li>interações com o aplicativo e com anúncios;</li>
+            <li>informações de diagnóstico e desempenho;</li>
+            <li>identificadores do dispositivo e identificadores de publicidade.</li>
+          </ul>
+          <p>
+            Esses dados podem ser usados pelo Google para publicidade, medição, análise, prevenção
+            de fraudes e segurança. A transmissão realizada pelo SDK é protegida em trânsito.
+            Consulte a
+            <a href="https://policies.google.com/privacy" rel="noopener noreferrer">Política de Privacidade do Google</a>
+            e as
+            <a href="https://policies.google.com/technologies/ads" rel="noopener noreferrer">informações sobre publicidade do Google</a>.
+          </p>
+        </section>
+
+        <section aria-labelledby="purchases">
+          <h2 id="purchases">4. Compras pelo Google Play</h2>
+          <p>
+            O aplicativo oferece uma compra não consumível para liberar recursos VIP. Pagamentos,
+            dados financeiros, recibos e processamento da transação são administrados pelo Google
+            Play. O Tarô Danny recebe apenas as informações necessárias para reconhecer a compra e
+            liberar ou restaurar o benefício no aplicativo.
+          </p>
+          <p>
+            O aplicativo registra localmente se o acesso VIP foi liberado. Não armazenamos os dados
+            completos do cartão ou de outro meio de pagamento.
+          </p>
+        </section>
+
+        <section aria-labelledby="external-services">
+          <h2 id="external-services">5. Links e serviços externos</h2>
+          <p>
+            O aplicativo disponibiliza links que podem abrir WhatsApp, Instagram e TikTok. Ao sair
+            do aplicativo, o tratamento de dados passa a ser regido pelas políticas do respectivo
+            serviço. Se você optar por enviar uma mensagem pelo WhatsApp, as informações fornecidas
+            voluntariamente serão utilizadas para responder ao contato e prestar o atendimento
+            solicitado.
+          </p>
+          <ul>
+            <li><a href="https://www.whatsapp.com/legal/privacy-policy" rel="noopener noreferrer">Privacidade do WhatsApp</a></li>
+            <li><a href="https://privacycenter.instagram.com/policy" rel="noopener noreferrer">Privacidade do Instagram</a></li>
+            <li><a href="https://www.tiktok.com/legal/page/row/privacy-policy/pt-BR" rel="noopener noreferrer">Privacidade do TikTok</a></li>
+          </ul>
+        </section>
+
+        <section aria-labelledby="sharing">
+          <h2 id="sharing">6. Compartilhamento de informações</h2>
+          <p>
+            Não vendemos dados pessoais. Informações podem ser tratadas pelos provedores mencionados
+            nesta política para viabilizar anúncios, compras e links externos. Também poderemos
+            divulgar informações quando isso for exigido por lei, ordem válida de autoridade ou para
+            proteger direitos, segurança e prevenir fraude.
+          </p>
+        </section>
+
+        <section aria-labelledby="retention">
+          <h2 id="retention">7. Retenção e exclusão</h2>
+          <p>
+            As preferências e o estado VIP armazenados pelo aplicativo permanecem localmente até que
+            os dados sejam apagados ou o aplicativo seja desinstalado. Informações de transações e
+            publicidade são mantidas pelos respectivos provedores de acordo com suas próprias
+            políticas e obrigações legais.
+          </p>
+          <p>
+            Mensagens enviadas voluntariamente para atendimento podem ser mantidas pelo período
+            necessário para responder, manter o histórico do atendimento e cumprir obrigações
+            legais. Você pode solicitar esclarecimentos ou a exclusão de informações mantidas
+            diretamente pelo desenvolvedor pelo contato informado abaixo.
+          </p>
+        </section>
+
+        <section aria-labelledby="security">
+          <h2 id="security">8. Segurança</h2>
+          <p>
+            Adotamos medidas razoáveis para proteger as informações sob nosso controle. Entretanto,
+            nenhum método de transmissão ou armazenamento eletrônico é totalmente isento de riscos.
+            Serviços de terceiros aplicam suas próprias medidas de proteção.
+          </p>
+        </section>
+
+        <section aria-labelledby="children">
+          <h2 id="children">9. Crianças e adolescentes</h2>
+          <p>
+            O Tarô Danny não é direcionado a crianças menores de 13 anos e não busca coletar
+            conscientemente dados pessoais de crianças. Caso um responsável entenda que uma criança
+            forneceu informações diretamente ao desenvolvedor, poderá solicitar a exclusão pelo
+            canal de contato desta política.
+          </p>
+        </section>
+
+        <section aria-labelledby="changes">
+          <h2 id="changes">10. Alterações nesta política</h2>
+          <p>
+            Esta política poderá ser atualizada para refletir mudanças no aplicativo, nos serviços
+            utilizados ou em requisitos legais. A versão vigente estará sempre publicada nesta
+            página, acompanhada da data da última atualização.
+          </p>
+        </section>
+
+        <section aria-labelledby="contact">
+          <h2 id="contact">11. Contato</h2>
+          <p>
+            Para dúvidas, solicitações relacionadas à privacidade ou pedidos de exclusão, entre em
+            contato com:
+          </p>
+          <div class="notice">
+            <strong>Responsável:</strong> Vinicius Santos<br />
+            <strong>Aplicativo:</strong> Tarô Danny<br />
+            <strong>E-mail:</strong>
+            <a href="mailto:vinibitn@hotmail.com">vinibitn@hotmail.com</a>
+          </div>
+        </section>
+      </main>
+
+      <footer>© 2026 Tarô Danny. Todos os direitos reservados.</footer>
+    </div>
+  </body>
+</html>
