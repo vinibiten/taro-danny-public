@@ -1,6 +1,6 @@
 # Política de Privacidade — Tarô Danny
 
-Página estática do aplicativo, preparada para publicação pelo próprio repositório `taro-danny`.
+Página estática do aplicativo, preparada para publicação pelo repositório público `taro-danny-public`.
 
 ## Antes de publicar
 
@@ -13,14 +13,14 @@ Confirme no arquivo `index.html` se estes dados estão corretos:
 
 ## Ativação do GitHub Pages
 
-Depois de enviar a pasta `docs` para a branch `main`:
+Depois de enviar os arquivos para a branch `main`:
 
 1. Abra `Settings` > `Pages` no repositório.
 2. Em `Build and deployment`, selecione `Deploy from a branch`.
-3. Escolha a branch `main`, a pasta `/docs` e clique em `Save`.
+3. Escolha a branch `main`, a pasta `/ (root)` e clique em `Save`.
 4. Aguarde a publicação e abra:
 
-   `https://vinibiten.github.io/taro-danny/`
+   `https://vinibiten.github.io/taro-danny-public/`
 
 5. Teste a URL em uma janela anônima e cole-a no Google Play Console.
 
