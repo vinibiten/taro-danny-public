@@ -7,7 +7,7 @@ Página estática do aplicativo, preparada para publicação pelo repositório p
 Confirme no arquivo `index.html` se estes dados estão corretos:
 
 - Responsável: Vinicius Santos
-- E-mail: vinibitn@hotmail.com
+- E-mail: vinibiten@hotmail.com
 - Aplicativo: Tarô Danny
 - O público-alvo não inclui crianças menores de 13 anos
 
